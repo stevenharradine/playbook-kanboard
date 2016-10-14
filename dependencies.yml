@@ -1,0 +1,3 @@
+---
+- src: telusdigital.nginx
+- src: telusdigital.php

@@ -1,0 +1,10 @@
+---
+- connection: local
+  hosts: localhost
+  sudo: true
+  remote_user: douglas
+  roles:
+    - role: telusdigital.nginx
+    - role: telusdigital.php
+  vars:
+    nginx_php_enabled: yes
