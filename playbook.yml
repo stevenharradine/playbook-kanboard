@@ -3,6 +3,9 @@
   hosts: localhost
   sudo: true
   remote_user: douglas
+  vars:
+    project: kanboard
+    ip_address: "192.168.2.{% if environment_tier=='development' %}98{% elif environment_tier=='production' %}8{% endif %}"
   roles:
     - role: telusdigital.nginx
       nginx_php_enabled: yes
