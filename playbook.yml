@@ -5,6 +5,5 @@
   remote_user: douglas
   roles:
     - role: telusdigital.nginx
+      nginx_php_enabled: yes
     - role: telusdigital.php
-  vars:
-    nginx_php_enabled: yes
