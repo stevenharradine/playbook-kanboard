@@ -13,3 +13,4 @@
     - role: telusdigital.nginx
       nginx_php_enabled: yes
     - role: telusdigital.php
+    - role: stevenharradine.kanboard
